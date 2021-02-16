@@ -11,7 +11,7 @@ class TicketsComment extends Model
 
     protected $fillable =[
         'comment_id',
-        'ticket_id',
+        'tickets_id',
         'comment_text',
         'user_id',
     ];

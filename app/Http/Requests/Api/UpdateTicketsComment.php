@@ -34,7 +34,7 @@ class UpdateTiketsComment extends ApiRequest
     public function rules()
     {
         return [
-            'comment_text' => 'sometimes|string|max:255',  ,  
+            'comment_text' => 'sometimes|string|max:255',
             'user_id' => 'sometimes|string|max:255', 
         ];
     }

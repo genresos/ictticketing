@@ -10,7 +10,7 @@ class CreateTicketsCommentTable extends Migration
     {
         Schema::create('tickets_comment', function (Blueprint $table) {
             $table->increments('comment_id');
-            $table->string('ticket_id');
+            $table->string('tickets_id');
             $table->string('comment_text');
             $table->string('user_id');
             $table->rememberToken();
